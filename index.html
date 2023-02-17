@@ -17,15 +17,15 @@
             <div class="grid grid-cols-3 gap-4 w-3/4 mx-auto mt-8 text-white">
                 <div class="bg-green-400 p-8 rounded-lg">
                     <h4 class="text-3xl">Deposit</h4>
-                    <h2 class="text-5xl font-medium">$<span class="deposit-total">00</span></h2>
+                    <h2 class="text-5xl font-medium">$<span id="deposit-total">00</span></h2>
                 </div>
                 <div class="bg-yellow-400 p-8 rounded-lg">
                     <h4 class="text-3xl">Withdraw</h4>
-                    <h2 class="text-5xl font-medium">$<span class="withdraw-total">00</span></h2>
+                    <h2 class="text-5xl font-medium">$<span id="Withdraw-total">00</span></h2>
                 </div>
                 <div class="bg-blue-400 p-8 rounded-lg">
                     <h4 class="text-3xl">Balance</h4>
-                    <h2 class="text-5xl font-medium">$<span class="balance-total">1200</span></h2>
+                    <h2 class="text-5xl font-medium">$<span id="balance-total">1200</span></h2>
                 </div>
             </div>
         </section>
@@ -40,12 +40,13 @@
                 </div>
                 <div class="bg-rose-400 p-8 rounded-lg">
                     <h3 class="text-4xl text-white mb-4">Enter Withdraw Amount</h3>
-                    <input class="w-3/4 px-4 py-3 rounded block" type="text" placeholder="$ Amount you want to Withdraw">
+                    <input id="withdraw-field" class="w-3/4 px-4 py-3 rounded block" type="text" placeholder="$ Amount you want to Withdraw">
                     <button id="btn-Withdraw" class="bg-blue-800 px-6 py-2 text-white font-medium rounded-lg mt-4 hover:bg-purple-500">Withdraw</button>
                 </div>
             </div>
         </section>
     </main>
     <script src="js/deposit.js"></script>
+    <script src="js/withdraw.js"></script>
 </body>
 </html>
